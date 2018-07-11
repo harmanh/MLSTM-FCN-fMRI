@@ -1,0 +1,84 @@
+SVM with mean data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 59 45
+         1 51 52
+                                          
+               Accuracy : 0.5362          
+                 95% CI : (0.4658, 0.6056)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.4728          
+                                          
+                  Kappa : 0.0722          
+ Mcnemar's Test P-Value : 0.6098          
+                                          
+            Sensitivity : 0.5364          
+            Specificity : 0.5361          
+         Pos Pred Value : 0.5673          
+         Neg Pred Value : 0.5049          
+             Prevalence : 0.5314          
+         Detection Rate : 0.2850          
+   Detection Prevalence : 0.5024          
+      Balanced Accuracy : 0.5362          
+                                          
+       'Positive' Class : 0               
+                                          
+
+SVM with correlation data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 80 51
+         1 23 39
+                                         
+               Accuracy : 0.6166         
+                 95% CI : (0.544, 0.6855)
+    No Information Rate : 0.5337         
+    P-Value [Acc > NIR] : 0.012318       
+                                         
+                  Kappa : 0.2142         
+ Mcnemar's Test P-Value : 0.001697       
+                                         
+            Sensitivity : 0.7767         
+            Specificity : 0.4333         
+         Pos Pred Value : 0.6107         
+         Neg Pred Value : 0.6290         
+             Prevalence : 0.5337         
+         Detection Rate : 0.4145         
+   Detection Prevalence : 0.6788         
+      Balanced Accuracy : 0.6050         
+                                         
+       'Positive' Class : 0              
+                                         
+
+SVM with dynamic time warped data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 79 62
+         1 31 35
+                                          
+               Accuracy : 0.5507          
+                 95% CI : (0.4802, 0.6197)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.313402        
+                                          
+                  Kappa : 0.0805          
+ Mcnemar's Test P-Value : 0.001865        
+                                          
+            Sensitivity : 0.7182          
+            Specificity : 0.3608          
+         Pos Pred Value : 0.5603          
+         Neg Pred Value : 0.5303          
+             Prevalence : 0.5314          
+         Detection Rate : 0.3816          
+   Detection Prevalence : 0.6812          
+      Balanced Accuracy : 0.5395          
+                                          
+       'Positive' Class : 0               
+                                          
+

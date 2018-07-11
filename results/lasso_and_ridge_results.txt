@@ -1,0 +1,168 @@
+LASSO regression with mean data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 72 64
+         1 38 33
+                                         
+               Accuracy : 0.5072         
+                 95% CI : (0.437, 0.5772)
+    No Information Rate : 0.5314         
+    P-Value [Acc > NIR] : 0.77832        
+                                         
+                  Kappa : -0.0053        
+ Mcnemar's Test P-Value : 0.01331        
+                                         
+            Sensitivity : 0.6545         
+            Specificity : 0.3402         
+         Pos Pred Value : 0.5294         
+         Neg Pred Value : 0.4648         
+             Prevalence : 0.5314         
+         Detection Rate : 0.3478         
+   Detection Prevalence : 0.6570         
+      Balanced Accuracy : 0.4974         
+                                         
+       'Positive' Class : 0              
+                                         
+
+LASSO regression with correlation data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 75 42
+         1 28 48
+                                          
+               Accuracy : 0.6373          
+                 95% CI : (0.5652, 0.7051)
+    No Information Rate : 0.5337          
+    P-Value [Acc > NIR] : 0.0023          
+                                          
+                  Kappa : 0.2641          
+ Mcnemar's Test P-Value : 0.1202          
+                                          
+            Sensitivity : 0.7282          
+            Specificity : 0.5333          
+         Pos Pred Value : 0.6410          
+         Neg Pred Value : 0.6316          
+             Prevalence : 0.5337          
+         Detection Rate : 0.3886          
+   Detection Prevalence : 0.6062          
+      Balanced Accuracy : 0.6307          
+                                          
+       'Positive' Class : 0               
+                                          
+
+LASSO regression with dynamic time warped data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 73 59
+         1 37 38
+                                          
+               Accuracy : 0.5362          
+                 95% CI : (0.4658, 0.6056)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.47283         
+                                          
+                  Kappa : 0.0561          
+ Mcnemar's Test P-Value : 0.03209         
+                                          
+            Sensitivity : 0.6636          
+            Specificity : 0.3918          
+         Pos Pred Value : 0.5530          
+         Neg Pred Value : 0.5067          
+             Prevalence : 0.5314          
+         Detection Rate : 0.3527          
+   Detection Prevalence : 0.6377          
+      Balanced Accuracy : 0.5277          
+                                          
+       'Positive' Class : 0               
+                                          
+
+Ridge regression with mean data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 71 61
+         1 39 36
+                                          
+               Accuracy : 0.5169          
+                 95% CI : (0.4466, 0.5867)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.68739         
+                                          
+                  Kappa : 0.0168          
+ Mcnemar's Test P-Value : 0.03573         
+                                          
+            Sensitivity : 0.6455          
+            Specificity : 0.3711          
+         Pos Pred Value : 0.5379          
+         Neg Pred Value : 0.4800          
+             Prevalence : 0.5314          
+         Detection Rate : 0.3430          
+   Detection Prevalence : 0.6377          
+      Balanced Accuracy : 0.5083          
+                                          
+       'Positive' Class : 0               
+                                          
+
+Ridge regression with correlation data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 79 49
+         1 24 41
+                                          
+               Accuracy : 0.6218          
+                 95% CI : (0.5493, 0.6904)
+    No Information Rate : 0.5337          
+    P-Value [Acc > NIR] : 0.008346        
+                                          
+                  Kappa : 0.2265          
+ Mcnemar's Test P-Value : 0.004970        
+                                          
+            Sensitivity : 0.7670          
+            Specificity : 0.4556          
+         Pos Pred Value : 0.6172          
+         Neg Pred Value : 0.6308          
+             Prevalence : 0.5337          
+         Detection Rate : 0.4093          
+   Detection Prevalence : 0.6632          
+      Balanced Accuracy : 0.6113          
+                                          
+       'Positive' Class : 0               
+                                          
+
+Ridge regression with dynamic time warped data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 72 56
+         1 38 41
+                                         
+               Accuracy : 0.5459         
+                 95% CI : (0.4754, 0.615)
+    No Information Rate : 0.5314         
+    P-Value [Acc > NIR] : 0.36437        
+                                         
+                  Kappa : 0.0781         
+ Mcnemar's Test P-Value : 0.07953        
+                                         
+            Sensitivity : 0.6545         
+            Specificity : 0.4227         
+         Pos Pred Value : 0.5625         
+         Neg Pred Value : 0.5190         
+             Prevalence : 0.5314         
+         Detection Rate : 0.3478         
+   Detection Prevalence : 0.6184         
+      Balanced Accuracy : 0.5386         
+                                         
+       'Positive' Class : 0              
+                                         
+

@@ -1,0 +1,84 @@
+KNN with mean data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 74 64
+         1 36 33
+                                          
+               Accuracy : 0.5169          
+                 95% CI : (0.4466, 0.5867)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.687388        
+                                          
+                  Kappa : 0.0132          
+ Mcnemar's Test P-Value : 0.006934        
+                                          
+            Sensitivity : 0.6727          
+            Specificity : 0.3402          
+         Pos Pred Value : 0.5362          
+         Neg Pred Value : 0.4783          
+             Prevalence : 0.5314          
+         Detection Rate : 0.3575          
+   Detection Prevalence : 0.6667          
+      Balanced Accuracy : 0.5065          
+                                          
+       'Positive' Class : 0               
+                                          
+
+KNN with correlation data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 70 38
+         1 33 52
+                                          
+               Accuracy : 0.6321          
+                 95% CI : (0.5599, 0.7002)
+    No Information Rate : 0.5337          
+    P-Value [Acc > NIR] : 0.003607        
+                                          
+                  Kappa : 0.2583          
+ Mcnemar's Test P-Value : 0.634992        
+                                          
+            Sensitivity : 0.6796          
+            Specificity : 0.5778          
+         Pos Pred Value : 0.6481          
+         Neg Pred Value : 0.6118          
+             Prevalence : 0.5337          
+         Detection Rate : 0.3627          
+   Detection Prevalence : 0.5596          
+      Balanced Accuracy : 0.6287          
+                                          
+       'Positive' Class : 0               
+                                          
+
+KNN with dynamic time warped data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 66 66
+         1 44 31
+                                         
+               Accuracy : 0.4686         
+                 95% CI : (0.3991, 0.539)
+    No Information Rate : 0.5314         
+    P-Value [Acc > NIR] : 0.96985        
+                                         
+                  Kappa : -0.0815        
+ Mcnemar's Test P-Value : 0.04526        
+                                         
+            Sensitivity : 0.6000         
+            Specificity : 0.3196         
+         Pos Pred Value : 0.5000         
+         Neg Pred Value : 0.4133         
+             Prevalence : 0.5314         
+         Detection Rate : 0.3188         
+   Detection Prevalence : 0.6377         
+      Balanced Accuracy : 0.4598         
+                                         
+       'Positive' Class : 0              
+                                         
+

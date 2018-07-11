@@ -1,0 +1,84 @@
+Logistic regression with mean data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 70 71
+         1 40 26
+                                          
+               Accuracy : 0.4638          
+                 95% CI : (0.3944, 0.5342)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.978186        
+                                          
+                  Kappa : -0.0974         
+ Mcnemar's Test P-Value : 0.004407        
+                                          
+            Sensitivity : 0.6364          
+            Specificity : 0.2680          
+         Pos Pred Value : 0.4965          
+         Neg Pred Value : 0.3939          
+             Prevalence : 0.5314          
+         Detection Rate : 0.3382          
+   Detection Prevalence : 0.6812          
+      Balanced Accuracy : 0.4522          
+                                          
+       'Positive' Class : 0               
+                                          
+
+Logistic regression with correlation data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 71 55
+         1 32 35
+                                          
+               Accuracy : 0.5492          
+                 95% CI : (0.4761, 0.6208)
+    No Information Rate : 0.5337          
+    P-Value [Acc > NIR] : 0.35973         
+                                          
+                  Kappa : 0.0795          
+ Mcnemar's Test P-Value : 0.01834         
+                                          
+            Sensitivity : 0.6893          
+            Specificity : 0.3889          
+         Pos Pred Value : 0.5635          
+         Neg Pred Value : 0.5224          
+             Prevalence : 0.5337          
+         Detection Rate : 0.3679          
+   Detection Prevalence : 0.6528          
+      Balanced Accuracy : 0.5391          
+                                          
+       'Positive' Class : 0               
+                                          
+
+Logistic regression with dynamic time warped data accuracy:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 68 59
+         1 42 38
+                                         
+               Accuracy : 0.5121         
+                 95% CI : (0.4418, 0.582)
+    No Information Rate : 0.5314         
+    P-Value [Acc > NIR] : 0.7348         
+                                         
+                  Kappa : 0.01           
+ Mcnemar's Test P-Value : 0.1114         
+                                         
+            Sensitivity : 0.6182         
+            Specificity : 0.3918         
+         Pos Pred Value : 0.5354         
+         Neg Pred Value : 0.4750         
+             Prevalence : 0.5314         
+         Detection Rate : 0.3285         
+   Detection Prevalence : 0.6135         
+      Balanced Accuracy : 0.5050         
+                                         
+       'Positive' Class : 0              
+                                         
+

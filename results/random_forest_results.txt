@@ -1,0 +1,84 @@
+Random forest with mean data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 66 62
+         1 44 35
+                                         
+               Accuracy : 0.4879         
+                 95% CI : (0.418, 0.5582)
+    No Information Rate : 0.5314         
+    P-Value [Acc > NIR] : 0.9070         
+                                         
+                  Kappa : -0.0396        
+ Mcnemar's Test P-Value : 0.0987         
+                                         
+            Sensitivity : 0.6000         
+            Specificity : 0.3608         
+         Pos Pred Value : 0.5156         
+         Neg Pred Value : 0.4430         
+             Prevalence : 0.5314         
+         Detection Rate : 0.3188         
+   Detection Prevalence : 0.6184         
+      Balanced Accuracy : 0.4804         
+                                         
+       'Positive' Class : 0              
+                                         
+
+Random forest with correlation data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 79 60
+         1 24 30
+                                          
+               Accuracy : 0.5648          
+                 95% CI : (0.4917, 0.6358)
+    No Information Rate : 0.5337          
+    P-Value [Acc > NIR] : 0.2139273       
+                                          
+                  Kappa : 0.1029          
+ Mcnemar's Test P-Value : 0.0001341       
+                                          
+            Sensitivity : 0.7670          
+            Specificity : 0.3333          
+         Pos Pred Value : 0.5683          
+         Neg Pred Value : 0.5556          
+             Prevalence : 0.5337          
+         Detection Rate : 0.4093          
+   Detection Prevalence : 0.7202          
+      Balanced Accuracy : 0.5502          
+                                          
+       'Positive' Class : 0               
+                                          
+
+Random forest with dynamic time warped data:
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  0  1
+         0 64 57
+         1 46 40
+                                          
+               Accuracy : 0.5024          
+                 95% CI : (0.4323, 0.5725)
+    No Information Rate : 0.5314          
+    P-Value [Acc > NIR] : 0.8174          
+                                          
+                  Kappa : -0.0058         
+ Mcnemar's Test P-Value : 0.3245          
+                                          
+            Sensitivity : 0.5818          
+            Specificity : 0.4124          
+         Pos Pred Value : 0.5289          
+         Neg Pred Value : 0.4651          
+             Prevalence : 0.5314          
+         Detection Rate : 0.3092          
+   Detection Prevalence : 0.5845          
+      Balanced Accuracy : 0.4971          
+                                          
+       'Positive' Class : 0               
+                                          
+
